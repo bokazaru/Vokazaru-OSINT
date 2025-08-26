@@ -1,0 +1,55 @@
+# Vokazaru-OSINT Requirements
+
+# Основные зависимости
+aiohttp==3.9.0
+asyncio==3.4.3
+requests==2.31.0
+beautifulsoup4==4.12.2
+lxml==4.9.3
+Pillow==10.0.0
+python-magic==0.4.27
+cryptography==41.0.7
+pyarmor==8.2.0
+
+# Для работы с данными
+pandas==2.0.3
+numpy==1.24.3
+openpyxl==3.1.2
+
+# Для отчетов
+Jinja2==3.1.2
+Markdown==3.4.4
+html5lib==1.1
+
+# Для интеграции с внешними сервисами
+telethon==1.28.5
+python-telegram-bot==20.5
+pycryptodome==3.18.0
+
+# Утилиты
+colorama==0.4.6
+tqdm==4.66.1
+python-dotenv==1.0.0
+argparse==1.4.0
+urllib3==2.0.4
+
+# Для Termux-совместимости
+pyfiglet==0.8.post1
+termcolor==2.3.0
+
+# Зависимости для безопасности
+bcrypt==4.0.1
+paramiko==3.2.0
+
+# Дополнительные инструменты
+qrcode==7.4.2
+pyzbar==0.1.9
+opencv-python==4.8.1.78
+
+# Для обработки изображений
+pyngrok==7.0.0
+imageio==2.31.1
+
+# Для работы с датами и временем
+python-dateutil==2.8.2
+pytz==2023.3
